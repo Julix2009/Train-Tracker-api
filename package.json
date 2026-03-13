@@ -1,0 +1,19 @@
+{
+  "name": "train-tracker-api",
+  "version": "1.0.0",
+  "description": "ÖBB live departures API via hafas-client",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "hafas-client": "^6.2.1"
+  }
+}
